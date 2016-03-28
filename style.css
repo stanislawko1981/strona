@@ -1,0 +1,74 @@
+.jumbotron {
+  background-color:lightgrey;
+	height: 1300px;
+	margin-left: 50px;
+	margin-right:50px;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.tlo_baner{
+  background-color: black;
+}
+.container {
+  margin: 0 auto; 
+  background-color: #778899;
+	padding-top:0px;
+  height: 50px;
+ }
+.nav {	
+  margin-left: 500px;
+  padding-top:0px;
+  margin-top: 7px;
+}
+
+.baner{
+	background-image: url('skoda.jpg');
+	height: 120px;
+	background-size: cover;
+
+}
+#menu {
+      display: table; 
+      padding: 0 10px 0; 
+      margin: 0 auto; 
+      overflow: hidden; 
+      font-size: 14px; 
+      }
+#menu li {
+      list-style-type: none; 
+      margin: 0 auto; 
+      float: left; 
+}
+#menu li:hover {
+  background: #404040;
+}
+#menu li a {
+  display: block; 
+  color: black; 
+  text-decoration: none; 
+  padding: 7px 10px 7px;
+}
+#menu li a:hover {
+  background: #404040; 
+  color: white;
+}
+#menu li li a {
+  width: 160px;
+}
+#menu li ul {
+  overflow: hidden; 
+  display: none; 
+  background: #778899;
+}
+#menu li:hover ul {
+  position: absolute; 
+  padding: 0; display: 
+  block; width: 160px;
+}
+ /*ANIMACJA - tylko CSS3*/
+#menu *:hover {transition: 0.3s ease-in;}
+/*ZAOKRĄGLONE ROGI - tylko CSS3*/
+#menu {border-radius: 3px;}
+#menu li ul {border-radius: 0 0 3px 3px;}
